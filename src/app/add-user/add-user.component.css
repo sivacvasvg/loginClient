@@ -1,0 +1,7 @@
+.mat-form-field {
+    display: block;
+}
+.align_flex_right {
+    display: flex;
+    justify-content: end;
+}

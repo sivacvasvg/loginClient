@@ -1,0 +1,16 @@
+<mat-card class="user-card">
+    <mat-card-header>
+      <mat-card-title>User Details 
+        <span>
+            <button mat-raised-button color="primary" class="goBack_btn" type="submit" mat-button (click)="goBack()">Back</button>
+        </span>
+    </mat-card-title>
+    </mat-card-header><hr>
+    <mat-card-content>
+      <p><label>Name: </label>{{userData?.name}}</p>
+      <p><label>Phone: </label>{{userData?.phone}}</p>
+      <p><label>Address: </label>{{userData?.address}}</p>
+      <p><label>City: </label>{{userData?.city}}</p>
+      <p><label>State: </label>{{userData?.state}}</p>
+    </mat-card-content>
+  </mat-card>

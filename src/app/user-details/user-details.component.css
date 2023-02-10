@@ -1,0 +1,25 @@
+.user-card {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .user-card mat-card-content {
+    padding: 16px;
+  }
+  .user-card .mat-card-header .mat-card-title {
+    font-size: 24px;
+  }
+ .user-card mat-card-content p {
+    font-size: 18px;
+    font-weight: 600;
+  }
+ .user-card .mat-card-header {
+    flex-direction: column;
+}
+ .user-card .goBack_btn {
+    float: right;
+ }
+ .user-card mat-card-content label {
+    font-size: 18px;
+    font-weight: 500;
+  }
