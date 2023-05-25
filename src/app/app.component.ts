@@ -7,9 +7,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  isLogin:boolean = false;
+  isLogin!:boolean ;
   title = 'userManagementProj';
-  constructor(private route: Router) { }
+  constructor(private route: Router) {this.isLoggedin() }
   ngOnInit (): void {
     
   }
